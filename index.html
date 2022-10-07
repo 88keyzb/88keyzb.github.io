@@ -9,25 +9,90 @@
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💭</text></svg>">
   <link rel="stylesheet" href="tufte.css" />
+  <style>
+    /* blog post list */
+    /* Shamelessly stolen from https://bearblog.dev/*/
+
+    ul.blog-posts {
+      list-style-type: none;
+      padding: unset;
+    }
+
+    ul.blog-posts li {
+      display: flex;
+    }
+
+    ul.blog-posts li span {
+      flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+      color: var(--visited-color);
+    }
+  </style>
 </head>
 
 <body>
-  <article>
-    <section>
-      <h1 id="tufte-css">Zach Barnes</h1>
-      <p class="subtitle">Writing some thoughts</p>
-
-      <ul>
-        <li><a href="seattle">Seattle</a></li>
-        <li><a href="marathon">Running a Marathon</a></li>
-        <li><a href="25lessons">25 lessons at 25</a></li>
-        <li><a href="boob_tube">Boob Tube</a></li>
-        <li><a href="silence">Silence</a></li>
-        <li><a href="violin">Learning Violin</a></li>
-        <li><a href="quotes">Quotes</a></li>
-      </ul>
-    </section>
-  </article>
+  <h1 id="tufte-css">
+    Zach Barnes
+  </h1>
+  <nav>
+    <p><a href="">About</a> <a href="">Now</a> <a href="quotes">Quotes</a>
+    </p>
+  </nav>
+  <main>
+    <content>
+      <ul class="blog-posts">
+        <li>
+          <span>
+            <i>
+              Sept 17, 2022
+            </i>
+          </span>
+          <a href="seattle">Seattle</a>
+        </li>
+        <li>
+          <span>
+            <i>
+              Jul 27, 2022
+            </i>
+          </span>
+          <a href="marathon">Running a Marathon</a>
+        </li>
+        <li>
+          <span>
+            <i>
+              Jul 11, 2022
+            </i>
+          </span>
+          <a href="25lessons">25 lessons at 25</a>
+        </li>
+        <li>
+          <span>
+            <i>
+              May 04, 2022
+            </i>
+          </span>
+          <a href="boob_tube">Boob Tube</a>
+        </li>
+        <li>
+          <span>
+            <i>
+              Feb 09, 2022
+            </i>
+          </span>
+          <a href="silence">Silence</a>
+        </li>
+        <li>
+          <span>
+            <i>
+              Jan 17, 2022
+            </i>
+          </span>
+          <a href="violin">Learning Violin</a>
+        </li>
+    </content>
+  </main>
 </body>
 
 </html>
