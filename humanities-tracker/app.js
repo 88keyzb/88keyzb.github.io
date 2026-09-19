@@ -238,6 +238,126 @@ const WEEKS = [
     { label: "Part three of the course — Honest Broker", url: "https://www.honest-broker.com/p/can-you-really-learn-the-humanities" },
     { label: "Catherine Project (extra online courses)", url: "https://catherineproject.org/" }
   ] },
+{ n: 27, title: "Week 27 — Shakespeare: Romances",
+  desc: "More romantic fare from the Immortal Bard.",
+  readings: ["Shakespeare: A Midsummer Night's Dream","Shakespeare: Romeo and Juliet","Shakespeare: The Tempest"],
+  music: ["Bernstein: West Side Story (after Romeo and Juliet)","Mendelssohn: A Midsummer Night's Dream"],
+  art: ["Portraits of Thomas Gainsborough"],
+  links: [
+    { label: "Thomas Gainsborough portraits — Art Renewal", url: "https://www.artrenewal.org/artists/thomas-gainsborough/189" }
+  ] },
+{ n: 28, title: "Week 28 — Renaissance Lives",
+  desc: "Artists' lives + the ultimate Renaissance man.",
+  readings: ["Vasari: Lives (Giotto, Botticelli, Leonardo, Raphael, Michelangelo)","Cellini: Autobiography, chapters 1–18"],
+  music: ["Josquin Desprez","Guillaume de Machaut"],
+  art: ["The Notebooks of Leonardo da Vinci"],
+  links: [
+    { label: "Where to read Leonardo's notebooks — Open Culture", url: "https://www.openculture.com/2021/05/where-to-read-leonardo-da-vincis-notebooks-online.html" }
+  ] },
+{ n: 29, title: "Week 29 — Shakespeare: Histories & Othello",
+  desc: "History plays + one last tragedy; valor, envy, vengeance, comedy.",
+  readings: ["Shakespeare: Henry IV, Parts 1 and 2","Shakespeare: Othello"],
+  music: ["Lute music by John Dowland and Thomas Campion"],
+  art: ["Pre-Columbian architecture"],
+  links: [
+    { label: "Pre-Columbian architecture (Mesoamerican) — Wikipedia", url: "https://en.wikipedia.org/wiki/Mesoamerican_architecture" },
+    { label: "▶ YouTube: Renaissance Lute — Dowland album", url: "https://www.youtube.com/watch?v=o2nr401xYTM" }
+  ] },
+{ n: 30, title: "Week 30 — Cervantes & Molière",
+  desc: "Quixote + Tartuffe; satire, realism, deconstruction.",
+  readings: ["Cervantes: Don Quixote, chapters 1–5","Molière: Tartuffe (Wilbur translation recommended)"],
+  music: ["Piano music of Isaac Albéniz and Enrique Granados"],
+  art: ["El Greco","Diego Velázquez","Francisco Goya"],
+  links: [
+    { label: "Don Quixote on brand franchises — Honest Broker", url: "https://www.honest-broker.com/p/don-quixote-tells-us-how-the-star" },
+    { label: "El Greco — WikiArt", url: "https://www.wikiart.org/en/el-greco" },
+    { label: "Diego Velázquez — Google Arts & Culture", url: "https://artsandculture.google.com/entity/diego-vel%C3%A1zquez/m0k92y?hl=en" },
+    { label: "Francisco Goya — catalogue", url: "https://franciscodegoya.net/" }
+  ] },
+{ n: 31, title: "Week 31 — Machiavelli & Rousseau",
+  desc: "Two short treatises on politics: pragmatic vs. idealistic.",
+  readings: ["Machiavelli: The Prince","Rousseau: The Social Contract"],
+  music: ["Mozart: Piano Concertos 20, 23","Mozart: Serenade 13 (Eine kleine Nachtmusik)"],
+  art: ["Auguste Rodin"],
+  links: [
+    { label: "Auguste Rodin — The Art Story", url: "https://www.theartstory.org/artist/rodin-auguste/" }
+  ] },
+{ n: 32, title: "Week 32 — Rousseau & Voltaire",
+  desc: "Shocking confessions + satirical picaresque.",
+  readings: ["Rousseau: Confessions, Book 1 only","Voltaire: Candide"],
+  music: ["French impressionists: Debussy, Ravel"],
+  art: ["French impressionist painters"],
+  links: [
+    { label: "French Impressionism — NGV school resource", url: "https://www.ngv.vic.gov.au/school_resource/french-impressionism/" }
+  ] },
+{ n: 33, title: "Week 33 — Descartes, Spinoza, Kant",
+  desc: "Cogito, God-in-nature, categorical imperative. Go slowly.",
+  readings: ["Descartes: Discourse on the Method","Spinoza: Ethics, Part 1 (On God)","Kant: Groundwork of the Metaphysics of Morals"],
+  music: ["Mozart opera overtures and selected arias"],
+  art: ["Japanese art and architecture"],
+  links: [
+    { label: "Japanese art — Wikipedia", url: "https://en.wikipedia.org/wiki/Japanese_art" },
+    { label: "Japanese architecture — Wikipedia", url: "https://en.wikipedia.org/wiki/Japanese_architecture" },
+    { label: "▶ YouTube: Mozart opera scene (Shawshank)", url: "https://www.youtube.com/watch?v=Bjqmg_7J53s" }
+  ] },
+{ n: 34, title: "Week 34 — Goethe",
+  desc: "Werther: scandal, feeling vs. rationalism, timelier than you think.",
+  readings: ["Goethe: The Sorrows of Young Werther"],
+  music: ["Brahms: Symphonies 1–4"],
+  art: ["Sturm und Drang painting"],
+  links: [
+    { label: "Toward a new Romanticism — Honest Broker", url: "https://www.honest-broker.com/p/notes-toward-a-new-romanticism" },
+    { label: "Sturm und Drang — Google Arts & Culture", url: "https://artsandculture.google.com/entity/sturm-und-drang/m0d5_sg?hl=en" }
+  ] },
+{ n: 35, title: "Week 35 — Romantic Poets",
+  desc: "England and Germany reject scientism for art, nature, music.",
+  readings: ["Romantic poetry: Keats, Wordsworth, Blake, Coleridge, Byron, Shelley, Novalis, Hölderlin"],
+  music: ["Beethoven: Symphony 6 (Pastoral)","Chopin: Nocturnes, Preludes"],
+  art: ["Caspar David Friedrich","John Constable"],
+  links: [
+    { label: "Caspar David Friedrich — Google Arts & Culture", url: "https://artsandculture.google.com/entity/caspar-david-friedrich/m01q3f?hl=en" },
+    { label: "John Constable — WikiArt", url: "https://www.wikiart.org/en/john-constable" }
+  ] },
+{ n: 36, title: "Week 36 — Revolutions",
+  desc: "Democracy, communism, feminism: read to think, not to comply.",
+  readings: ["The Declaration of Independence","United States Constitution","Marx & Engels: The Communist Manifesto","Wollstonecraft: A Vindication of the Rights of Woman"],
+  music: ["Bluegrass (Bill Monroe, Flatt & Scruggs, Alison Krauss, Ralph Stanley)"],
+  art: ["Mary Cassatt","Georgia O'Keeffe","Thomas Eakins","Winslow Homer"],
+  links: [
+    { label: "Mary Cassatt — catalogue", url: "https://marycassatt.org/" },
+    { label: "Georgia O'Keeffe Museum", url: "https://www.okeeffemuseum.org/" },
+    { label: "Thomas Eakins — WikiArt", url: "https://www.wikiart.org/en/thomas-eakins" },
+    { label: "Winslow Homer — WikiArt", url: "https://www.wikiart.org/en/winslow-homer" }
+  ] },
+{ n: 37, title: "Week 37 — Austen",
+  desc: "The modern love story; try the 2005 film too.",
+  readings: ["Jane Austen: Pride and Prejudice"],
+  music: ["Ella Fitzgerald: Cole Porter / Irving Berlin / Jerome Kern Songbooks"],
+  art: ["Textile art"],
+  links: [
+    { label: "▶ YouTube: Pride & Prejudice — rain scene", url: "https://www.youtube.com/watch?v=YlETBQHBm9w" },
+    { label: "History of textile art — Art.Art", url: "https://art.art/blog/art-history-101-unraveling-the-history-of-textile-art" }
+  ] },
+{ n: 38, title: "Week 38 — Darwin & Mill",
+  desc: "Evolutionary mindset + libertarian concepts.",
+  readings: ["Darwin: On the Origin of Species, chapters 1–4","Mill: On Liberty"],
+  music: ["The Waltz (Strauss II, Chopin, Bill Evans, John Coltrane)"],
+  art: ["Art Nouveau and Art Deco"],
+  links: [
+    { label: "▶ YouTube: Bill Evans — My Man's Gone Now (live 1961)", url: "https://www.youtube.com/watch?v=6yH2s-ZBgMU" },
+    { label: "▶ YouTube: John Coltrane — My Favorite Things", url: "https://www.youtube.com/watch?v=rqpriUFsMQQ" },
+    { label: "What is Art Nouveau — Rise Art", url: "https://www.riseart.com/guide/2417/what-is-art-nouveau" },
+    { label: "Art Deco — The Art Story", url: "https://www.theartstory.org/movement/art-deco/" }
+  ] },
+{ n: 39, title: "Week 39 — American Voices",
+  desc: "Six rule-breakers who liberated US literature.",
+  readings: ["Emily Dickinson: Selected Poems","Poe: The Raven, The Fall of the House of Usher","Melville: Bartleby the Scrivener; Moby Dick ch. 1","Thoreau: Walden","Twain: Huckleberry Finn, ch. 1–6","Whitman: Song of Myself"],
+  music: ["Miles Davis and John Coltrane, selected tracks"],
+  art: ["Grandma Moses and American folk art"],
+  links: [
+    { label: "Grandma Moses — WikiArt", url: "https://www.wikiart.org/en/grandma-moses" },
+    { label: "Fourth and final installment — Honest Broker", url: "https://www.honest-broker.com/p/my-12-month-immersive-course-in-humanitiesthe" }
+  ] },
 ];
 
 const KEY = "humanities-tracker-v1";
