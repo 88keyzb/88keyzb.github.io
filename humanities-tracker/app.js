@@ -3,12 +3,22 @@ const WEEKS = [
   desc: "The Final Days of Socrates + Republic Books I, VII. Justice and the Allegory of the Cave.",
   readings: ["Euthyphro","Apology","Crito","Phaedo","Republic, Book I","Republic, Book VII"],
   music: ["Bach: Well-Tempered Clavier, Book 1","Bach: Goldberg Variations"],
-  art: ["Jacques-Louis David paintings (incl. The Death of Socrates, 1787)"] },
+  art: ["Jacques-Louis David paintings (incl. The Death of Socrates, 1787)"],
+  links: [
+    { label: "Complete Works of Plato (Grube, Hackett)", url: "https://hackettpublishing.com/complete-works" },
+    { label: "Reading notes for Plato — Honest Broker", url: "https://www.honest-broker.com/p/how-to-read-plato" },
+    { label: "Paintings by Jacques-Louis David — WikiArt", url: "https://www.wikiart.org/en/jacques-louis-david/all-works" },
+    { label: "The Death of Socrates — Wikipedia", url: "https://en.wikipedia.org/wiki/The_Death_of_Socrates" }
+  ] },
 { n: 2, title: "Week 2 — Lyric Poetry & Odyssey I",
   desc: "First songs of the self; begin Odysseus' journey.",
   readings: ["Sappho and other Greek lyric poets (Lattimore collection)","Homer: Odyssey, Books 1–10"],
   music: ["Schubert: Winterreise","Joni Mitchell: Blue"],
-  art: ["Ancient Greek sculpture"] },
+  art: ["Ancient Greek sculpture"],
+  links: [
+    { label: "Reading notes for Sappho — Honest Broker", url: "https://www.honest-broker.com/p/why-love-songs-are-badass" },
+    { label: "Lattimore Greek lyric poetry collection — UChicago Press", url: "https://press.uchicago.edu/ucp/books/book/chicago/G/bo27941157.html" }
+  ] },
 { n: 3, title: "Week 3 — Odyssey II",
   desc: "Wisdom over brute force; Odysseus returns to Ithaca.",
   readings: ["Homer: Odyssey, Books 11–24"],
@@ -106,6 +116,24 @@ function render() {
     const body = document.createElement("div");
     body.className = "week-body";
     body.innerHTML = `<p class="desc">${w.desc}</p>`;
+    if (w.links && w.links.length) {
+      const h = document.createElement("h3");
+      h.textContent = "Links";
+      body.appendChild(h);
+      const ul = document.createElement("ul");
+      ul.className = "links-list";
+      w.links.forEach(l => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = l.url;
+        a.textContent = l.label;
+        a.target = "_blank";
+        a.rel = "noopener";
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+      body.appendChild(ul);
+    }
     [["readings","Readings"],["music","Music"],["art","Art"]].forEach(([cat, heading]) => {
       const h = document.createElement("h3");
       h.textContent = heading;
