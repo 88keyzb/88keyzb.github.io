@@ -358,6 +358,112 @@ const WEEKS = [
     { label: "Grandma Moses — WikiArt", url: "https://www.wikiart.org/en/grandma-moses" },
     { label: "Fourth and final installment — Honest Broker", url: "https://www.honest-broker.com/p/my-12-month-immersive-course-in-humanitiesthe" }
   ] },
+{ n: 40, title: "Week 40 — Moral Dilemmas",
+  desc: "Three probing minds on tough choices.",
+  readings: ["Dostoevsky: The Grand Inquisitor (from Brothers Karamazov)","Nietzsche: Beyond Good and Evil","Tolstoy: The Death of Ivan Ilyich"],
+  music: ["Shostakovich: Symphony 5","Prokofiev: Piano Concerto 3","Rachmaninoff: Piano Concerto 3"],
+  art: ["Bauhaus"],
+  links: [
+    { label: "Bauhaus school history — NYT / T Magazine", url: "https://www.nytimes.com/2019/02/04/t-magazine/bauhaus-school-architecture-history.html" }
+  ] },
+{ n: 41, title: "Week 41 — James & Proust",
+  desc: "The gold standard in novel-writing; don't fear long sentences.",
+  readings: ["Henry James: The Spoils of Poynton","Proust: Swann's Way, Overture (Moncrieff translation)"],
+  music: ["Mahler: Symphonies 2, 5, 9"],
+  art: ["Henri Matisse"],
+  links: [
+    { label: "Henri Matisse — WikiArt", url: "https://www.wikiart.org/en/henri-matisse/all-works" }
+  ] },
+{ n: 42, title: "Week 42 — Baudelaire & Flaubert",
+  desc: "Darker Romanticism: melancholy, dysfunction, penetration.",
+  readings: ["Baudelaire: Selected Poems","Flaubert: A Simple Heart"],
+  music: ["Origins of country (Rodgers, Carter Family, Cline, Cash, Williams, Lynn, Nelson)"],
+  art: ["Rembrandt"],
+  links: [
+    { label: "Rembrandt — Art Renewal", url: "https://www.artrenewal.org/artists/rembrandt/92" }
+  ] },
+{ n: 43, title: "Week 43 — Douglass & Du Bois",
+  desc: "Endurance and triumph; memoir as American life story.",
+  readings: ["Frederick Douglass: Narrative of the Life of Frederick Douglass","W.E.B. Du Bois: The Souls of Black Folk"],
+  music: ["Louis Armstrong","Duke Ellington","Billie Holiday"],
+  art: ["The Harlem Renaissance"],
+  links: [
+    { label: "Harlem Renaissance — History.com", url: "https://www.history.com/news/harlem-renaissance-african-american-identity" }
+  ] },
+{ n: 44, title: "Week 44 — Joyce & Beckett",
+  desc: "Pushing writing to its limits; difficulties are intentional.",
+  readings: ["Joyce: The Dead (from Dubliners)","Joyce: Ulysses, Episode 1 (Telemachus)","Beckett: Waiting for Godot"],
+  music: ["Traditional Irish and Scottish music"],
+  art: ["Pablo Picasso"],
+  links: [
+    { label: "Guide to Finnegans Wake — Honest Broker", url: "https://www.honest-broker.com/p/the-adventurers-guide-to-finnegans-wake" },
+    { label: "Ulysses at 100 — Honest Broker", url: "https://www.honest-broker.com/p/james-joyces-ulysses-turns-100-years" },
+    { label: "Annotated Ulysses — Wikisource", url: "https://en.wikisource.org/wiki/The_Annotated_%22Ulysses%22/Page_003" },
+    { label: "Pablo Picasso — WikiArt", url: "https://www.wikiart.org/en/pablo-picasso/all-works" }
+  ] },
+{ n: 45, title: "Week 45 — Woolf & Eliot",
+  desc: "Stream-of-consciousness; follow tone and feeling.",
+  readings: ["Virginia Woolf: To the Lighthouse","T.S. Eliot: The Love Song of J. Alfred Prufrock, The Waste Land"],
+  music: ["Gershwin: Rhapsody in Blue, An American in Paris","Ella Fitzgerald: George and Ira Gershwin Songbook"],
+  art: ["Edward Hopper","Frida Kahlo"],
+  links: [
+    { label: "Edward Hopper — WikiArt", url: "https://www.wikiart.org/en/edward-hopper/all-works" },
+    { label: "Frida Kahlo — catalogue", url: "https://www.fridakahlo.org" }
+  ] },
+{ n: 46, title: "Week 46 — Freud",
+  desc: "The unconscious, thanatos, and our self-destructive times.",
+  readings: ["Freud: An Outline of Psychoanalysis; Beyond the Pleasure Principle"],
+  music: ["Messiaen: Quartet for the End of Time","Schoenberg: Transfigured Night","Barber: Adagio for Strings"],
+  art: ["Surrealist painters"],
+  links: [
+    { label: "Surrealist paintings — WideWalls", url: "https://www.widewalls.ch/magazine/surrealist-paintings" }
+  ] },
+{ n: 47, title: "Week 47 — American Fiction Sprint",
+  desc: "Seven authors, rapid-fire; Faulkner is longest, Joyce was harder.",
+  readings: ["Ellison: Invisible Man (Prologue + ch. 1)","Faulkner: The Sound and the Fury (April Seventh 1928 only)","Fitzgerald: The Diamond as Big as the Ritz","Hemingway: The Killers","Shirley Jackson: The Lottery","O'Connor: A Good Man Is Hard to Find","O. Henry: The Gift of the Magi"],
+  music: ["Origins of modern jazz (Parker, Gillespie, Monk)"],
+  art: ["Abstract Expressionism"],
+  links: [
+    { label: "Abstract Expressionism — The Art Story", url: "https://www.theartstory.org/movement/abstract-expressionism/" }
+  ] },
+{ n: 48, title: "Week 48 — Magical Realism",
+  desc: "Fantasy + realism spills into film, TV, games.",
+  readings: ["Borges: Ficciones","Kafka: Metamorphosis","García Márquez: One Hundred Years of Solitude, ch. 1 only"],
+  music: ["Tango, Cumbia, Bossa Nova, Afro-Cuban music, Reggae"],
+  art: ["Antoni Gaudí and Sagrada Família"],
+  links: [
+    { label: "Antoni Gaudí and Sagrada Família", url: "https://sagradafamilia.org/en/antoni-gaudi" }
+  ] },
+{ n: 49, title: "Week 49 — Beauvoir, Foucault, Girard",
+  desc: "Feminism, post-modernism, mimetic desire — Facebook to dating to surveillance.",
+  readings: ["Beauvoir: The Second Sex (Intro + ch. 1)","Foucault: The Eye of Power (from Power/Knowledge)","Girard: Why Do We Fight? How Do We Stop?"],
+  music: ["Woody Guthrie","Bob Dylan","Joan Baez"],
+  art: ["Andy Warhol","Roy Lichtenstein"],
+  links: [
+    { label: "Andy Warhol — Google Arts & Culture", url: "https://artsandculture.google.com/entity/andy-warhol/m0kc6?hl=en" },
+    { label: "Roy Lichtenstein — WikiArt", url: "https://www.wikiart.org/en/roy-lichtenstein" }
+  ] },
+{ n: 50, title: "Week 50 — Theory",
+  desc: "Sontag, Benjamin, Ortega: hidden meanings in current conflicts.",
+  readings: ["Sontag: Notes on Camp, Against Interpretation; In Plato's Cave","Benjamin: The Work of Art in the Age of Mechanical Reproduction","Ortega: The Revolt of the Mass (chs. 6, 8); The Dehumanization of Art"],
+  music: ["The Motown Sound and Hip-Hop"],
+  art: ["Photography (Adams, Arbus, Cartier-Bresson, Evans, Weston)"] },
+{ n: 51, title: "Week 51 — Huxley",
+  desc: "The most accurate prophet of tech-defined life.",
+  readings: ["Aldous Huxley: Brave New World"],
+  music: ["Electronic music"],
+  art: ["Jean-Michel Basquiat"],
+  links: [
+    { label: "Jean-Michel Basquiat — Artnet", url: "https://www.artnet.com/artists/jean-michel-basquiat/" }
+  ] },
+{ n: 52, title: "Week 52 — Brink & Recovery",
+  desc: "Human beings at the brink, finding wholeness. Congratulations!",
+  readings: ["Butler: Bloodchild","Didion: The White Album","David Foster Wallace: The Pale King §22","AA Big Book, ch. 5 (How It Works)","O'Brien: The Things They Carried"],
+  music: ["Stephen Sondheim"],
+  art: ["The paintings of Leonardo da Vinci"],
+  links: [
+    { label: "Paintings of Leonardo da Vinci", url: "https://www.discoveringdavinci.com/paintings" }
+  ] },
 ];
 
 const KEY = "humanities-tracker-v1";
