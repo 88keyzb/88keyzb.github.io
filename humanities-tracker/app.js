@@ -123,6 +123,121 @@ const WEEKS = [
     { label: "Islamic architecture — Britannica", url: "https://www.britannica.com/story/8-masterpieces-of-islamic-architecture" },
     { label: "Part two of the course — Honest Broker", url: "https://www.honest-broker.com/p/a-12-month-immersive-course-in-humanities-ac2" }
   ] },
+{ n: 14, title: "Week 14 — Rome: Virgil & Ovid",
+  desc: "Roman epic, mythology, decadence + poems, proverbs, aphorisms.",
+  readings: ["Virgil: Aeneid, Books 1–2","Ovid: Metamorphoses, Book 1","Selected Roman poems and aphorisms (Horace, Catullus, Sulpicia, Martial) + Latin proverbs"],
+  music: ["Selected arias and overtures from Puccini and Verdi"],
+  art: ["Cave paintings from France (and elsewhere)"],
+  links: [
+    { label: "Latin proverbs — Wikiquote", url: "https://en.wikiquote.org/wiki/Latin_proverbs" },
+    { label: "The Portable Roman Reader — Penguin Random House", url: "https://www.penguinrandomhouse.com/books/329008/the-portable-roman-reader-by-various/" },
+    { label: "Carpe diem — Wikipedia", url: "https://en.wikipedia.org/wiki/Carpe_diem" },
+    { label: "Cave painting — Wikipedia", url: "https://en.wikipedia.org/wiki/Cave_painting" }
+  ] },
+{ n: 15, title: "Week 15 — Boethius",
+  desc: "Philosophy as goddess and muse; guidance for tough times.",
+  readings: ["Boethius: The Consolation of Philosophy"],
+  music: ["Schubert: String Quartet No. 14 (Death and the Maiden)","Mozart: Requiem"],
+  art: ["Albrecht Dürer","Hieronymus Bosch","Pieter Bruegel the Elder"],
+  links: [
+    { label: "Albrecht Dürer — WikiArt", url: "https://www.wikiart.org/en/albrecht-durer" },
+    { label: "Hieronymus Bosch — WikiArt", url: "https://www.wikiart.org/en/hieronymus-bosch" },
+    { label: "Pieter Bruegel the Elder — WikiArt", url: "https://www.wikiart.org/en/pieter-bruegel-the-elder" }
+  ] },
+{ n: 16, title: "Week 16 — Lao Tzu & Sun Tzu",
+  desc: "Two contrasting books of advice: mystical vs. brutally practical.",
+  readings: ["Lao Tzu: Tao Te Ching","Sun Tzu: The Art of War"],
+  music: ["The Beatles (The White Album, Sgt. Pepper's, Abbey Road)","Rolling Stones (Let It Bleed, Beggars Banquet, Exile on Main Street)"],
+  art: ["Chinese architecture"],
+  links: [
+    { label: "Ancient Chinese architecture — Magnifissance", url: "https://magnifissance.com/arts/traditional-chinese-arts/ancient-chinese-architecture/" }
+  ] },
+{ n: 17, title: "Week 17 — Apuleius",
+  desc: "Rome in decline; satire that anticipates the novel and postmodernism.",
+  readings: ["Apuleius: The Golden Ass"],
+  music: ["Scott Joplin: Rags and other piano works"],
+  art: ["Vincent van Gogh"],
+  links: [
+    { label: "Vincent van Gogh — Google Arts & Culture", url: "https://artsandculture.google.com/search?q=van%20gogh" }
+  ] },
+{ n: 18, title: "Week 18 — Arabian Nights",
+  desc: "Frame story of Scheherazade + five tales (Fisherman, Three Apples, Sinbad, Ali Baba, Aladdin).",
+  readings: ["Selections from The Arabian Nights (prologue + 5 tales)"],
+  music: ["Rimsky-Korsakov: Scheherazade","Tchaikovsky: Swan Lake, The Nutcracker, The Sleeping Beauty"],
+  art: ["Aboriginal Australian art"],
+  links: [
+    { label: "Aboriginal art history — ArtArk", url: "https://artark.com.au/en-us/pages/aboriginal-art-history" }
+  ] },
+{ n: 19, title: "Week 19 — Interior Life I",
+  desc: "Bhagavad Gita + monastic rule + start of Augustine's Confessions.",
+  readings: ["Bhagavad Gita","The Rule of St. Benedict","Augustine: Confessions, Books 1–2"],
+  music: ["Gregorian chants"],
+  art: ["Giotto","Fra Angelico"],
+  links: [
+    { label: "Giotto — WikiArt", url: "https://www.wikiart.org/en/giotto/all-works" },
+    { label: "Fra Angelico — WikiArt", url: "https://www.wikiart.org/en/fra-angelico/all-works" }
+  ] },
+{ n: 20, title: "Week 20 — Augustine",
+  desc: "Spirituality and the interior life in a dying empire.",
+  readings: ["Augustine: Confessions, Books 2–13"],
+  music: ["Bach: St. Matthew Passion"],
+  art: ["The Bayeux tapestry"],
+  links: [
+    { label: "The Bayeux Tapestry — Bayeux Museum", url: "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/" }
+  ] },
+{ n: 21, title: "Week 21 — Chaucer & Malory",
+  desc: "The two greatest English works before Shakespeare.",
+  readings: ["Chaucer: Canterbury Tales (Prologue, Knight's, Miller's, Wife of Bath's tales)","Malory: Le Morte D'Arthur, Books 13–15 (quest for the Holy Grail)"],
+  music: ["Beethoven: Late String Quartets"],
+  art: ["Pre-Raphaelite painters"],
+  links: [
+    { label: "Pre-Raphaelite painters — Google Arts & Culture", url: "https://artsandculture.google.com/usergallery/gAIyJGRZpszKLA" }
+  ] },
+{ n: 22, title: "Week 22 — African Epics",
+  desc: "Literature back at its musical source.",
+  readings: ["The Mwindo Epic","Sundiata: An Epic of Old Mali"],
+  music: ["Fela Kuti (Zombie, Coffin for Head of State)"],
+  art: ["Traditional African art"],
+  links: [
+    { label: "African art — Wikipedia", url: "https://en.wikipedia.org/wiki/African_art" }
+  ] },
+{ n: 23, title: "Week 23 — Medieval Love",
+  desc: "Abelard and Heloise + secular lyrics from slaves to nobility.",
+  readings: ["The Letters of Abelard and Heloise","Love lyrics of the Qiyan, Troubadours, Trobairitz, Trouvères"],
+  music: ["Madrigals from Monteverdi (and others)"],
+  art: ["Gothic cathedrals (Notre Dame, Chartres, Cologne)"],
+  links: [
+    { label: "Notre Dame virtual tour", url: "https://www.friendsofnotredamedeparis.org/virtual-tour-notre-dame/" },
+    { label: "Chartres panoramic views", url: "https://www.cathedrale-chartres.org/en/cathedrale/monument/panoramic-views/" },
+    { label: "Cologne Cathedral — 360°", url: "https://www.360cities.net/image/inside-the-cologne-cathedral" }
+  ] },
+{ n: 24, title: "Week 24 — Dante I",
+  desc: "La Vita Nuova + Inferno; life story into embodied metaphysics.",
+  readings: ["Dante: La Vita Nuova","Dante: Inferno"],
+  music: ["Terry Riley: In C","Steve Reich: Music for 18 Musicians","Philip Glass: Koyaanisqatsi","Pauline Oliveros: Deep Listening"],
+  art: ["The Ghent Altarpiece"],
+  links: [
+    { label: "The Ghent Altarpiece — Wikipedia", url: "https://en.wikipedia.org/wiki/Ghent_Altarpiece" },
+    { label: "Dante and Beatrice (Holiday, 1883) — Wikimedia", url: "https://commons.wikimedia.org/wiki/File:Henry_Holiday_-_Dante_and_Beatrice_-_Google_Art_Project.jpg" }
+  ] },
+{ n: 25, title: "Week 25 — Dante II",
+  desc: "Purgatorio + Paradiso; personal, spiritual, imaginative, romantic.",
+  readings: ["Dante: Purgatorio","Dante: Paradiso"],
+  music: ["Bach: Mass in B Minor"],
+  art: ["Native American art"],
+  links: [
+    { label: "Native American art — Britannica", url: "https://www.britannica.com/art/Native-American-art" }
+  ] },
+{ n: 26, title: "Week 26 — Shakespeare: Tragedies",
+  desc: "Hamlet, King Lear, Macbeth — act scenes aloud if in a group.",
+  readings: ["Shakespeare: Hamlet","Shakespeare: King Lear","Shakespeare: Macbeth"],
+  music: ["Berlioz: Symphonie fantastique","Ellington/Strayhorn: Such Sweet Thunder","Shostakovich: Hamlet & King Lear film soundtracks"],
+  art: ["Titian"],
+  links: [
+    { label: "Titian — WikiArt", url: "https://www.wikiart.org/en/titian/all-works" },
+    { label: "Part three of the course — Honest Broker", url: "https://www.honest-broker.com/p/can-you-really-learn-the-humanities" },
+    { label: "Catherine Project (extra online courses)", url: "https://catherineproject.org/" }
+  ] },
 ];
 
 const KEY = "humanities-tracker-v1";
