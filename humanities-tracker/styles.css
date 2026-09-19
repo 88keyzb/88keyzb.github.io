@@ -1,21 +1,28 @@
-body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 1rem; line-height: 1.5; color: #222; background: #fafafa; }
-header h1 { margin-bottom: 0.2rem; }
-#overall-wrap { margin: 1rem 0; }
+/* Tracker overrides on top of ../tufte.css — keeps et-book type, adds checkboxes/progress */
+#overall-wrap, .controls, .week, .mini-bar { width: 55%; }
+@media (max-width: 760px) {
+  #overall-wrap, .controls, .week, .mini-bar { width: 100%; }
+}
 #overall-bar { background: #e0e0e0; border-radius: 6px; height: 14px; overflow: hidden; }
-#overall-fill { background: #2a7; height: 100%; width: 0%; transition: width 0.2s; }
-#overall-text { font-size: 0.9rem; margin-top: 0.3rem; }
-.controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
-button, #import-label { cursor: pointer; border: 1px solid #ccc; background: #fff; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.9rem; }
-button:hover, #import-label:hover { background: #eee; }
-.week { background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 0.8rem; }
-.week summary { cursor: pointer; padding: 0.8rem; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+@media (prefers-color-scheme: dark) { #overall-bar { background: #333; } }
+#overall-fill { background: #2a7a4b; height: 100%; width: 0%; transition: width 0.2s; }
+#overall-text { font-size: 1.1rem; margin-top: 0.3rem; }
+.controls { display: flex; gap: 0.5rem; margin: 1rem 0; padding: 0; }
+.controls button, #import-label { cursor: pointer; border: 1px solid #ccc; background: #fefefe; padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 1.1rem; font-family: inherit; }
+@media (prefers-color-scheme: dark) { .controls button, #import-label { background: #222; border-color: #444; color: #ddd; } }
+.controls button:hover, #import-label:hover { background: #eee; }
+@media (prefers-color-scheme: dark) { .controls button:hover, #import-label:hover { background: #333; } }
+.week { background: transparent; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 0.8rem; }
+.week summary { cursor: pointer; padding: 0.8rem; font-size: 1.4rem; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
 .week summary::-webkit-details-marker { display: none; }
 .week-body { padding: 0 0.8rem 0.8rem; }
-.week-progress { font-weight: normal; font-size: 0.85rem; color: #555; white-space: nowrap; }
+.week-body p.desc { font-size: 1.3rem; }
+.week-progress { font-size: 1.1rem; white-space: nowrap; }
 .mini-bar { background: #eee; border-radius: 4px; height: 8px; margin: 0 0.8rem 0.8rem; overflow: hidden; }
-.mini-fill { background: #2a7; height: 100%; width: 0%; }
-h3 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; color: #555; margin: 0.8rem 0 0.3rem; }
-label.item { display: flex; gap: 0.5rem; align-items: flex-start; padding: 0.25rem 0; cursor: pointer; }
-label.item input { margin-top: 0.3rem; }
-label.item.done span { text-decoration: line-through; color: #777; }
-.desc { font-size: 0.9rem; color: #444; margin: 0 0 0.5rem; }
+@media (prefers-color-scheme: dark) { .mini-bar { background: #333; } }
+.mini-fill { background: #2a7a4b; height: 100%; width: 0%; }
+.week h3 { font-size: 1.3rem; margin: 1rem 0 0.3rem; }
+label.item { display: flex; gap: 0.5rem; align-items: flex-start; padding: 0.25rem 0; cursor: pointer; font-size: 1.3rem; }
+label.item input { margin-top: 0.5rem; width: 1rem; height: 1rem; flex-shrink: 0; }
+label.item.done span { text-decoration: line-through; opacity: 0.65; }
+.video-link { font-size: 1.2rem; }

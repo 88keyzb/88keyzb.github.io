@@ -4,12 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Humanities Immersive Tracker</title>
+<link rel="stylesheet" href="../tufte.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
+<article>
+<section>
   <h1>Humanities Immersive Tracker</h1>
-  <p>13-week reading / listening / viewing course. Check items as you finish them.</p>
+  <p class="subtitle">13-week reading / listening / viewing course</p>
+  <p>Check items as you finish them. Progress saves automatically in this browser.</p>
   <div id="overall-wrap">
     <div id="overall-bar"><div id="overall-fill"></div></div>
     <div id="overall-text">0% complete</div>
@@ -19,11 +22,14 @@
     <label id="import-label">Import JSON<input type="file" id="import-input" accept=".json,application/json" hidden></label>
     <button id="reset-btn">Reset</button>
   </div>
-</header>
+</section>
+<section>
 <main id="weeks"></main>
-<footer>
+</section>
+<section>
   <p>Progress saves automatically in this browser (localStorage).</p>
-</footer>
+</section>
+</article>
 <script src="app.js"></script>
 </body>
 </html>
